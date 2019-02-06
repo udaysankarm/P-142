@@ -50,7 +50,7 @@ int main()
 	sigy=sqrt(se/(n-2));
 	cout<<"\nError in y="<<sigy<<endl<<sx2<<endl<<De;
 	sigc=sigy*sqrt(sx2/De);
-	sigm=sigy*sqrt(10/129.45);
+	sigm=sigy*sqrt(n/De);
 	cout<<"\nError in intercept="<<sigc<<"\nError in slope="<<sigm<<endl;
 	return 0;
 }
